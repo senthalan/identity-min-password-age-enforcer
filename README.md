@@ -14,4 +14,4 @@ passwordMinAge.enable=false
 passwordMinAge.count=5
 ```
 - Restart the IS server
-- In the Resident Identity Provider configuration -> Password Policies enable `Password History` and `Password Minimum Age` 
+- In the Resident Identity Provider configuration -> Password Policies, enable both `Password History` and `Password Minimum Age` 

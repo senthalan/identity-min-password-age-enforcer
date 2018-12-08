@@ -25,8 +25,8 @@ public class PasswordMinAgeConstants {
 
     public enum ErrorMessages {
 
-        ERROR_CODE_MIN_AGE_VIOLATE("22016", "The password minimum age violation"),
-        ERROR_CODE_VALIDATING_PM_MIN_AGE("22017", "Error while validating password min age");
+        ERROR_CODE_MIN_AGE_VIOLATE("22001", "The password minimum age violation"),
+        ERROR_CODE_VALIDATING_PM_MIN_AGE("22002", "Error while validating password min age");
 
         private final String code;
         private final String message;

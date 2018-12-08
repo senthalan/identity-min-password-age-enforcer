@@ -67,7 +67,7 @@ public class MinPasswordAgeDataStore {
             long lastPasswordTime = date.getTime();
             long currentTime = new java.util.Date().getTime();
             long differentTime = currentTime - lastPasswordTime;
-            if (differentTime > minAge * 86400000) {
+            if (differentTime < minAge * 86400000) {
                 return false;
             }
         } catch (SQLException e) {
