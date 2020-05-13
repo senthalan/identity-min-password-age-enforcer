@@ -173,7 +173,7 @@ public class PasswordMinAgeValidationHandler extends AbstractEventHandler implem
         defaultProperties.put(PasswordMinAgeConstants.PM_MIN_AGE_ENABLE, configs.getModuleProperties()
                 .getProperty(PasswordMinAgeConstants.PM_MIN_AGE_ENABLE));
         defaultProperties.put(PasswordMinAgeConstants.PW_MIN_AGE_COUNT, configs.getModuleProperties()
-                .getProperty(PasswordMinAgeConstants.PM_MIN_AGE_ENABLE));
+                .getProperty(PasswordMinAgeConstants.PW_MIN_AGE_COUNT));
         Properties properties = new Properties();
         properties.putAll(defaultProperties);
         return properties;

@@ -21,7 +21,7 @@ package org.wso2.carbon.identity.password.min.age.constants;
 public class PasswordMinAgeConstants {
 
     public static final String PM_MIN_AGE_ENABLE = "passwordMinAge.enable";
-    public static final String PW_MIN_AGE_COUNT = "passwordMinAge.age";
+    public static final String PW_MIN_AGE_COUNT = "passwordMinAge.count";
 
     public enum ErrorMessages {
 
