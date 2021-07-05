@@ -43,10 +43,12 @@
         <dependency>
             <groupId>org.wso2.carbon.identity.framework</groupId>
             <artifactId>org.wso2.carbon.identity.event</artifactId>
+            <version>5.12.166</version>
         </dependency>
         <dependency>
             <groupId>org.wso2.carbon.identity.framework</groupId>
             <artifactId>org.wso2.carbon.identity.mgt</artifactId>
+            <version>5.12.166</version>
         </dependency>
         <dependency>
             <groupId>org.wso2.carbon.identity.governance</groupId>
@@ -60,6 +62,7 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-scr-plugin</artifactId>
+                <version>1.2.4</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.felix</groupId>
