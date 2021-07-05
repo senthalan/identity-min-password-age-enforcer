@@ -1,4 +1,4 @@
-##WSO2 IS - Password Policy - Minimum Password Age Enforcer
+## WSO2 IS - Password Policy - Minimum Password Age Enforcer
 
 ### How to start
 
