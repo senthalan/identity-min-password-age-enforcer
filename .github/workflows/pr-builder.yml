@@ -39,4 +39,4 @@ jobs:
       - name: Build with Maven
         run: mvn clean install -U -B
       - name: Delete SNAPSHOTs
-        run: find ~/.m2/repository/ -name "*-SNAPSHOT" -type d -print -prune -exec rm -r "{}" \;
+        run: find ~/.m2/repository/ -name "*-SNAPSHOT" -type d -print -prune -exec rm -r {} +
